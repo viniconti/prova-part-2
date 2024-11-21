@@ -1,0 +1,70 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.topbox{
+    display: flex;
+    justify-content: space-between;
+}
+.topo {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 68, 125);
+    display: flex;
+    align-items: center;
+}
+.subtopo{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(4, 4, 95);
+}
+.logo {
+    height: 71px;
+    width: 71px;
+}
+
+.h1 {
+    font-size: 10px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.h2{
+    height: 100%;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-coluna {
+    display: grid;
+    grid-template-rows: repeat(4, auto); 
+    row-gap: 15px; 
+    margin-top: 35px; 
+    width: 150px;
+}
+.txt{
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+    font-family: "Oswald", sans-serif;
+}
+.retangulo {
+    width: 390px;
+    height: 64px; 
+    background-color: rgb(17, 17, 109);
+    border: 2px solid red; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    gap: 10px; 
+    padding: 10px; 
+}
+
+.retangulo img {
+    height: 60px;
+    width: auto; 
+    margin: 5px 10px 5px 5px;
+}
